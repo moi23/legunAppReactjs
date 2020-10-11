@@ -1,5 +1,4 @@
 import React from 'react';
-import ImgHeader from "./../../assets/imgHeader.png"
 
 import { Container } from './styles';
 
@@ -23,7 +22,6 @@ const Header = () =>{
         </a>
         <h1 id="logoLegun">Legun</h1>
        </div>
-       <img src={ImgHeader} id="imgHeader" alt=""/>
     </Container>
   )
 }

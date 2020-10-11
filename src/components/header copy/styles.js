@@ -4,17 +4,17 @@ import xlBg from '../../assets/xl-bg.png'
 
 export const Container = styled.div`
   /* min-height:90vh; */
-  background: black;
+  background: url(${Background});
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
 
-  #imgHeader{
-    position: absolute;
-    height: auto;
-    width: 50vw;
-    bottom:0px;
-    right:0px;
+  @media screen and (max-width:2560px){
+  /* min-height:90vh; */
+  /* background: url(${xlBg}); */
+  background:black;
+  background-size: contain;
+  background-repeat: no-repeat;
+
   }
 
 
@@ -32,17 +32,17 @@ export const Container = styled.div`
     margin-top: 5%;
 }
 
-  #secondTextTitle{
-      font-size: 2.7vw;
-      font-weight: 300;
-      margin: 3% 0;
-  }
+#secondTextTitle{
+    font-size: 2.9vw;
+    font-weight: 300;
+    margin: 3% 0;
+}
 
-  #threeTextTitle{
-    font-size: 2.2vw;
-      font-weight: 300;
-      margin: -1% 0;
-  }
+#threeTextTitle{
+    font-size: 34px;
+    font-weight: 300;
+    margin: -1% 0;
+}
 
 
  #btnHeaderApp{
@@ -70,7 +70,7 @@ export const Container = styled.div`
  #logoLegun{
     font-style:italic;
     font-size: 5vw;
-    margin: 2vw 0;
+    /* margin-top: 3vw; */
   }
   
 `;
