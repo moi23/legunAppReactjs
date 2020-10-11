@@ -22,6 +22,7 @@ export const Container = styled.div`
     width: 25vw;
   }
   .boxDownload{
+
     a{
       text-decoration:none;
       display:flex;
