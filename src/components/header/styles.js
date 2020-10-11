@@ -8,6 +8,10 @@ export const Container = styled.div`
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  overflow-y:hidden;
+  overflow-x:hidden;
+
+  
 
   #imgHeader{
     position: absolute;
@@ -45,7 +49,7 @@ export const Container = styled.div`
   }
 
 
- #btnHeaderApp{
+ .btnHeaderApp{
     color: white;
     padding: 20px 30px;
     font-size: 1vw;
@@ -66,11 +70,19 @@ export const Container = styled.div`
     }
  } 
 
+ .btnHeaderAppHover{
+    border: solid 3px white !important;
+    background:white !important;
+    color:black !important;
+    font-size: 1.2vw !important;
+ }
+
  
  #logoLegun{
     font-style:italic;
     font-size: 5vw;
     margin: 2vw 0;
   }
+
   
 `;
