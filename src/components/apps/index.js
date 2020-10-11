@@ -54,34 +54,54 @@ const Apps = () => {
 
   return(
     <Container>
-          
-                  <h2>Baixe agora nossos Aplicativos!</h2>
-                  <div className="wrapperBoxDownload">
-                    <div className="boxDownload">
-                      <a href={Apk} download="Legun-Praia-Grande" >
-                        <img src={PraiaGrande} className="ThumbImageDownload" alt="ss"/>
-                        <p>Praia Grande</p>
-                        <button>Acessar Página</button>
-                      </a>
-                    </div>
-                    <div className="boxDownload">
-                      <a href={Apk} download="Legun-Ibitinga">
-                        <img src={Ibitinga} className="ThumbImageDownload" alt="ss"/>
-                        <p>Ibitinga</p>
-                        <button>Acessar Página</button>
-                      </a>
-                    </div>
-                    <div className="boxDownload">
-                      <a href={Apk} download="Legun-Mineiros-do-Tiete">
-                        <img src={MineirosDoTiete} className="ThumbImageDownload" alt="ss"/>
-                        <p>Mineiros do Tietê</p>
-                        <button>Acessar Página</button>
-                      </a>
-                    </div>
-                </div>
+          <h2>Baixe agora nossos Aplicativos!</h2>
+          <div className="wrapperBoxDownload">
+            <div className="boxDownload">
+              <a href={Apk} download="Legun-Praia-Grande" >
+                <img src={PraiaGrande} className="ThumbImageDownload" alt="ss"/>
+                <p>Praia Grande</p>
+                <button>Acessar Página</button>
+              </a>
+            </div>
+            <div className="boxDownload">
+              <a href={Apk} download="Legun-Ibitinga">
+                <img src={Ibitinga} className="ThumbImageDownload" alt="ss"/>
+                <p>Ibitinga</p>
+                <button>Acessar Página</button>
+              </a>
+            </div>
+            <div className="boxDownload">
+              <a href={Apk} download="Legun-Mineiros-do-Tiete">
+                <img src={MineirosDoTiete} className="ThumbImageDownload" alt="ss"/>
+                <p>Mineiros do Tietê</p>
+                <button>Acessar Página</button>
+              </a>
+            </div>
+        </div>
+        <div className="wrapperBoxDownload">
+            <div className="boxDownload">
+              <a href={Apk} download="Legun-Praia-Grande" >
+                <img src={SaoRoque} className="ThumbImageDownload" alt="ss"/>
+                <p>São Roque</p>
+                <button>Acessar Página</button>
+              </a>
+            </div>
+            <div className="boxDownload">
+              <a href={Apk} download="Legun-Ibitinga">
+                <img src={Itu} className="ThumbImageDownload" alt="ss"/>
+                <p>Itú</p>
+                <button>Acessar Página</button>
+              </a>
+            </div>
+            <div className="boxDownload">
+              <a href={Apk} download="Legun-Mineiros-do-Tiete">
+                <img src={IbiritiMirim} className="ThumbImageDownload" alt="ss"/>
+                <p>Ibitimirim</p>
+                <button>Acessar Página</button>
+              </a>
+            </div>
+        </div>
     </Container>
   )
 }
-
-
 export default Apps;

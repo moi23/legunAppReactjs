@@ -31,7 +31,7 @@ export const Container = styled.div`
 
   #firstTextTitle{
     /* font-size: 45px; */
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: lighter;
     margin-top: 5%;
 }

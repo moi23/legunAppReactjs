@@ -9,12 +9,16 @@ const Header = () =>{
   
   const [hover, setHover] = useState(false);
   
+  //Function setter as True hover state
   useEffect( () => {
     setTimeout( () => { setHover(true)}, 3000)
-
+    
+    //Hover in Button Header before: two secconds :D
     if(hover){
       const element = document.querySelector('.btnHeaderApp');
+
       element.classList.add('btnHeaderAppHover');
+      
       setTimeout( () => { element.classList.remove('btnHeaderAppHover')}, 2000)
     }
   })
@@ -22,7 +26,7 @@ const Header = () =>{
   return (
     <Container className="">
       <div id="wrapper-header" className="animate__animated animate__fadeInLeft">
-        <span id="firstTextTitle">Simples, Rápido e Seguro!</span>
+        <span id="firstTextTitle">Soluções, Transparência e Segurança!</span>
         <span id="secondTextTitle">
           Lorem Ipsum is simply dummy <br/>
           Text of the printing and typesetting
