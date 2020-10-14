@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  min-height: 50vh;
+  /* min-height: 50vh; */
   padding: 0px 5%;
   display:flex;
   flex-direction:column;
@@ -16,7 +16,7 @@ export const Container = styled.div`
 
   .wrapperContain{
     display:grid;
-    grid-template-rows: 50vh 50vh;
+    /* grid-template-rows: 50vh 50vh; */
     grid-template-areas: "left right";
   }
 
@@ -49,6 +49,11 @@ export const Container = styled.div`
     p{
       font-size: 1.2vw;
       margin-top: 2vw;
+    }
+
+    a{
+      margin-bottom: 5%;
+
     }
   }
 

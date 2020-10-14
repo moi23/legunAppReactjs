@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 100vh;
+  height: 100%;
+  margin-bottom: 4%;
   padding: 0px 5%;
   display:flex;
   flex-direction:column;
@@ -49,7 +50,8 @@ export const Container = styled.div`
 
   //UltraWide Theme
   @media screen and (max-width: 2560px){
-      height: 100vh;
+      height: 100%;
+      margin-bottom:4%;
       padding: 0.5vw 2vw;
       display:flex;
       flex-direction:column;
@@ -107,7 +109,7 @@ export const Container = styled.div`
 
   //Desktop Theme
   @media screen and (max-width: 1920px){
-      height: 100vh;
+      height: 100%;
       padding: 0px 5%;
       display:flex;
       flex-direction:column;

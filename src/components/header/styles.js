@@ -76,7 +76,6 @@ export const Container = styled.div`
     color:black !important;
     font-size: 1.2vw !important;
  }
-
  
  #logoLegun{
     font-style:italic;

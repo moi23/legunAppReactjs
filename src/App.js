@@ -5,7 +5,9 @@ import './util/animate.css'
 import Navbar from './components/navbar/';
 import Header from './components/header/';
 import Apps from './components/apps/';
-import Sobre from './components/sobre/'
+import Sobre from './components/sobre/';
+import Products from './components/products';
+import Lgpd from './components/lgpd'
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
      <Header />
      <Apps />
      <Sobre />
+     <Products />
+     <Lgpd/>
     </div>
   );
 }

@@ -1,0 +1,40 @@
+@media screen and (max-width: 426px) {
+  .wd-marketing-newsletter .form-wrapper {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .input-email-marketing-newsletter {
+    margin-left: -11px !important;
+    margin-top: 12px !important;
+  }
+
+  .footer-newsletter #newsletter-email-wd10 {
+    margin-left: 11px !important;
+  }
+
+  .wd-marketing-newsletter .input-wrapper:last-child {
+    text-align: initial !important;
+    margin-left: -10px !important;
+    margin-top: 13px !important;
+    padding-bottom: 0 !important;
+  }
+
+  .footer-newsletter button {
+    margin-top: 10px;
+  }
+
+  /*Ocultando a sessão vermelha do inicio da pagina*/
+  .redBoxAlign {
+    display: none;
+  }
+
+  .newsletter-email-wd10 {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+  }
+  .newsletter-email-wd10-error {
+    padding-left: 12px;
+  }
+}
