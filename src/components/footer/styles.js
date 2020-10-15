@@ -5,7 +5,7 @@ export const Container = styled.div`
   padding: 0px 5%;
 
   .cWrapper{
-    height: 10vh;
+    min-height: 7vh;
     display: flex;
     align-items:center;
     justify-content: space-between;
@@ -19,10 +19,11 @@ export const Container = styled.div`
   #logo-Legun{
     font-size: 2.5vw;
     font-style: italic;
+    margin-top:1%;
     
   }
 
-  #btn-download-app{
+  #btn-contato{
     padding: 0.5vw;
     border: solid 1px white;
     border-radius: 0.2vw;
@@ -30,19 +31,20 @@ export const Container = styled.div`
 
 
     &:hover{
-    /* border: solid 1px black; */
+    border: solid 1px black;
     background:white;
     color: black;
 
     }
   }
-
+  
+  
 
   #nav-links-Legun a{
     font-size: 1vw;
     text-transform:uppercase;
     margin-left:1.5vw;
-    transition:0.3s;
+    transition: 0.3s;
 
     &:hover{
       background:white;
@@ -51,6 +53,18 @@ export const Container = styled.div`
       border-radius:2px;
     }
   }
+}
+
+#nav-links-Legun{
+    display: flex;
+    align-items: center;
+  }
+
+.cWrapper p{
+  color:white;
+  font-size:0.9vw;
+  margin-top:2%;
+  margin-bottom:5%;
 }
 
 `;

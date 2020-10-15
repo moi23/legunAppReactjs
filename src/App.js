@@ -8,6 +8,7 @@ import Apps from './components/apps/';
 import Sobre from './components/sobre/';
 import Products from './components/products';
 import Lgpd from './components/lgpd'
+import Footer from './components/footer'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
      <Sobre />
      <Products />
      <Lgpd/>
+     <Footer/>
     </div>
   );
 }

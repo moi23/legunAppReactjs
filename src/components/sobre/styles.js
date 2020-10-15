@@ -53,7 +53,7 @@ export const Container = styled.div`
 
     a{
       margin-bottom: 5%;
-
+      font-size: 1.2vw;
     }
   }
 
