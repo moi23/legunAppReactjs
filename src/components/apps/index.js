@@ -6,6 +6,9 @@ import MineirosDoTiete from "./../../assets/MineirosDoTieteImage.png";
 import SaoRoque from "./../../assets/SaoRoqueImage.png";
 import Itu from "./../../assets/ItuImage.png";
 import IbiritiMirim from "./../../assets/IbitiMirimImage.png";
+import Modal from './../../util/Modal';
+
+
 
 //Files
 import Apk from './../../files/applegun.apk';
@@ -57,10 +60,10 @@ const Apps = () => {
           <h2>Baixe agora nossos Aplicativos!</h2>
           <div className="wrapperBoxDownload">
             <div className="boxDownload">
-              <a href={Apk} download="Legun-Praia-Grande" >
+              <a>
                 <img src={PraiaGrande} className="ThumbImageDownload" alt="ss"/>
                 <p>Praia Grande</p>
-                <button>Acessar Página</button>
+                <Modal></Modal>
               </a>
             </div>
             <div className="boxDownload">

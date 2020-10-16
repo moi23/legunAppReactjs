@@ -51,8 +51,6 @@ h2{
         text-decoration:none;
         transition: background-color .35s, opacity .35s;
         margin-bottom: 5%;
-}
       }
-
-
+    }
 `;    
