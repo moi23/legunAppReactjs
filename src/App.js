@@ -1,32 +1,28 @@
 import React from 'react';
 import './App.css';
-import './util/animate.css'
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
-import Navbar from './components/navbar/';
-import Header from './components/header/';
-import Apps from './components/apps/';
-import Sobre from './components/sobre/';
-import Products from './components/products';
-import Lgpd from './components/lgpd';
-import Footer from './components/footer';
-import Mnavbar from './mcomponents/navbar'
-import Mheader from './mcomponents/mheader'
+import HomePage from './pages/home/index';
+import AppPage from './pages/apps/index';
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App ">
-      <Mnavbar />
-     <Navbar />
-
-     <Mheader />
-     <Header />
-     <Apps />
-     <Sobre />
-     <Products />
-     <Lgpd/>
-     <Footer/>
+    <Router>
+    <div>
+      <Switch>
+        <Route path="/apps">
+          <AppPage />
+        </Route>
+        <Route path="/">
+          <HomePage />
+        </Route>
+      </Switch>
     </div>
-  );
+  </Router>
+  )
 }
+
 
 export default App;

@@ -2,8 +2,8 @@ import React from 'react';
 
 import { Container } from './styles';
 
-function mapps() {
+function Mapps() {
   return <div />;
 }
 
-export default mapps;
+export default Mapps;
