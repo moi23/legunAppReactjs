@@ -2,6 +2,11 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
+#alignBox{
+  display:flex;
+  justify-content:center;
+}
+
 input{
     padding: 1vw 5vw;
     font-size: 1.2vw;

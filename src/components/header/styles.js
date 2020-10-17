@@ -3,6 +3,9 @@ import Background from '../../assets/background.png';
 import xlBg from '../../assets/xl-bg.png'
 
 export const Container = styled.div`
+
+
+
   /* min-height:90vh; */
   background: black;
   background-size: cover;
@@ -82,6 +85,11 @@ export const Container = styled.div`
     font-size: 5vw;
     margin: 2vw 0;
   }
+
+
+  @media (max-width: 425px){
+    display:none;
+}
 
   
 `;

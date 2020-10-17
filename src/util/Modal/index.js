@@ -26,11 +26,11 @@ export default class Examples extends Component {
     render() {
         return (
           <Container>
-            <section>
+            <section id="alignBox">
                 <input  type="button" value="Acessar Página" onClick={() => this.openModal()} />
-                <Modal id="cleitinho" visible={this.state.visible} width="400" height="300" effect="fadeInUp" onClickAway={() => this.closeModal()}>
+                <Modal visible={this.state.visible} width="70%" height="70%" effect="fadeInUp" onClickAway={() => this.closeModal()}>
                     <div>
-                        <h1>Title</h1>
+                        <h1>{this.props.cidade}</h1>
                         <p>Some Contents</p>
                         <a href="javascript:void(0);" onClick={() => this.closeModal()}>Close</a>
                     </div>

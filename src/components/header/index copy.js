@@ -24,7 +24,7 @@ const Header = () =>{
   })
 
   return (
-    <Container className="t">
+    <Container className="">
       <div id="wrapper-header" className="animate__animated animate__fadeInLeft">
         <span id="firstTextTitle">Soluções, Transparência e Segurança!</span>
         <span id="secondTextTitle">

@@ -63,44 +63,44 @@ const Apps = () => {
               <a>
                 <img src={PraiaGrande} className="ThumbImageDownload" alt="ss"/>
                 <p>Praia Grande</p>
-                <Modal></Modal>
+                <Modal cidade="Nossos Apps de Praia Grande" />
               </a>
             </div>
             <div className="boxDownload">
-              <a href={Apk} download="Legun-Ibitinga">
+              <a>
                 <img src={Ibitinga} className="ThumbImageDownload" alt="ss"/>
                 <p>Ibitinga</p>
-                <button>Acessar Página</button>
+                <Modal cidade="Nossos Apps de Ibitinga" />
               </a>
             </div>
             <div className="boxDownload">
-              <a href={Apk} download="Legun-Mineiros-do-Tiete">
+              <a>
                 <img src={MineirosDoTiete} className="ThumbImageDownload" alt="ss"/>
                 <p>Mineiros do Tietê</p>
-                <button>Acessar Página</button>
+                <Modal cidade="Nossos Apps de Mineiros do Tietê" />
               </a>
             </div>
         </div>
         <div className="wrapperBoxDownload">
             <div className="boxDownload">
-              <a href={Apk} download="Legun-Praia-Grande" >
+              <a>
                 <img src={SaoRoque} className="ThumbImageDownload" alt="ss"/>
                 <p>São Roque</p>
-                <button>Acessar Página</button>
+                <Modal cidade="Nossos Apps de São Roque" />
               </a>
             </div>
             <div className="boxDownload">
-              <a href={Apk} download="Legun-Ibitinga">
+              <a>
                 <img src={Itu} className="ThumbImageDownload" alt="ss"/>
                 <p>Itú</p>
-                <button>Acessar Página</button>
+                <Modal cidade="Nossos Apps de Itú" />
               </a>
             </div>
             <div className="boxDownload">
-              <a href={Apk} download="Legun-Mineiros-do-Tiete">
+              <a>
                 <img src={IbiritiMirim} className="ThumbImageDownload" alt="ss"/>
                 <p>Ibitimirim</p>
-                <button>Acessar Página</button>
+                <Modal cidade="Nossos Apps de Ibiritimirim" />
               </a>
             </div>
         </div>
