@@ -14,7 +14,7 @@ function Mheader() {
            <h1>Legun</h1>
          </div>
          <div className="alignButtonLegun">
-           <button>BAIXE NOSSO APP!</button>
+           <button>BAIXE NOSSOS APP!</button>
          </div>
         </Container>;
 }

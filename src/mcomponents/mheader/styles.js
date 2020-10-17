@@ -29,7 +29,7 @@ export const Container = styled.div`
 
     h1{
       color:white;
-      font-size:20vw;
+      font-size: 25vw;
       letter-spacing:10px;
       font-style:italic;
     }
@@ -38,25 +38,21 @@ export const Container = styled.div`
   .alignButtonLegun{
     display:flex;
     justify-content:center;
-    margin-top:24%;
+    margin-top: 65%;
     transition:0.9s;
-
-
-    button{
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 30px 60px;
-    border: solid 2px white;
-    border-radius: 13px;
-
-    &:hover{
-      background:white;
-      color:black;
-      border: solid 2px green;
+        button {
+        background: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 30px 60px;
+        border: solid 2px white;
+        border-radius: 13px;
+        font-size: 16px;
+        &:hover{
+          background:white;
+          color:black;
+          border: solid 2px green;
+        }
     }
-}
-    }
-  }
-
+ }
 
 `;
