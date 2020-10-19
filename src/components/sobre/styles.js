@@ -56,5 +56,9 @@ export const Container = styled.div`
       font-size: 1.2vw;
     }
   }
-
+	//Faz desaparecer quando chegar em tela de 500px
+		@media (max-width: 500px) {
+    display: none;
+}
+  
 `;

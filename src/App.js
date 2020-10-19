@@ -3,7 +3,10 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import HomePage from './pages/home/index';
-import AppPage from './pages/apps/index';
+
+
+import PraiaGrandePage from './pages/apps/PraiaGrandePage';
+import MineirosDoTietePage from './pages/apps/MineirosdoTietePage';
 
 
 
@@ -12,9 +15,15 @@ const App = () => {
     <Router>
     <div>
       <Switch>
-        <Route path="/apps">
-          <AppPage />
+				<Route exact path="/praiagrande">
+          <PraiaGrandePage />
         </Route>
+				<Route exact path="/mineirosdotiete">
+          <MineirosDoTietePage />
+        </Route>
+				{/* <Route exact path="/mineirosdotiete">
+          <MineirosDoTietePage />
+        </Route> */}
         <Route path="/">
           <HomePage />
         </Route>

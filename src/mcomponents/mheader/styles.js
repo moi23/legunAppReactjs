@@ -38,7 +38,7 @@ export const Container = styled.div`
   .alignButtonLegun{
     display:flex;
     justify-content:center;
-    margin-top: 65%;
+    margin-top: 17%;
     transition:0.9s;
         button {
         background: rgba(0, 0, 0, 0.5);
@@ -55,4 +55,9 @@ export const Container = styled.div`
     }
  }
 
+
+ @media (min-width: 500px) {
+    display: none;
+}
+  
 `;

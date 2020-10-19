@@ -17,5 +17,10 @@ export const Container = styled.div`
     padding-top:4px;
     font-weight: 400;
     letter-spacing: 4px;
-  }
+	}
+	//Faz desaparecer quando chegar em tela de 500px
+	@media (min-width: 500px) {
+    display: none;
+}
+  
 `;

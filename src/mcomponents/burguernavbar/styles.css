@@ -1,3 +1,9 @@
+@media (min-width: 500px) {
+  .BurgerMobile {
+    display: none;
+  }
+}
+
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
