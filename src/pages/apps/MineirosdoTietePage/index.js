@@ -12,8 +12,8 @@ import AnaoLaiaAndroid from './../../../files/MineirosDoTiete/anaolaia55999.apk'
 // import BetoRamos from './../../../assets/AnaOlaia.jpg'
 import betoramosAndroid from './../../../files/MineirosDoTiete/betoramos55555.apk';
 
-// import Bocio from './../../../assets/AnaOlaia.jpg'
-import bocio55678Android from './../../../files/MineirosDoTiete/bocio55678.apk';
+// import Bocao from './../../../assets/AnaOlaia.jpg'
+import bocao55678Android from './../../../files/MineirosDoTiete/bocao55678.apk';
 
 import EdimilsonFoto from './../../../assets/Edimilson.jpg'
 import edimilsoneufrasio55125Android from './../../../files/MineirosDoTiete/edimilsoneufrasio55125.apk';
@@ -27,7 +27,7 @@ import gabrielabig55333Android from './../../../files/MineirosDoTiete/gabrielabi
 import GazaniFoto from './../../../assets/Gazani.jpg'
 import gazani55789Android from './../../../files/MineirosDoTiete/gazani55789.apk';
 
-import MarcoFoto from './../../../assets/Gazani.jpg'
+import MarcoFoto from './../../../assets/Marco.jpg'
 import marcopadaria55444Android from './../../../files/MineirosDoTiete/marcopadaria55444.apk';
 
 // import AnaOlaiaFoto from './../../../assets/AnaOlaia.jpg'
@@ -43,6 +43,20 @@ import thallesrodrigues20000Android from './../../../files/MineirosDoTiete/thall
 import VaniaFoto from './../../../assets/Vania.jpg'
 import vaniabraga13222Android from './../../../files/MineirosDoTiete/vaniabraga13222.apk';
 
+import VadiFoto from './../../../assets/Vadi.jpg';
+import vadi123465Android from './../../../files/MineirosDoTiete/vadicesarin.apk';
+
+import ChicoFoto from './../../../assets/Chico.jpg';
+import tiochico55456Android from './../../../files/MineirosDoTiete/tiochico55456.apk';
+
+import SidineyFoto from './../../../assets/Sidiney.jpg';
+import sidineygasparotto13000Android from './../../../files/MineirosDoTiete/sidineygasparotto13000.apk';
+
+import FefeFoto from './../../../assets/Fefe.jpg';
+import fefe55123Android from './../../../files/MineirosDoTiete/fefe55123.apk';
+
+import ElaineFoto from './../../../assets/Elaine.JPG';
+import elainedasaude20200Android from './../../../files/MineirosDoTiete/elainedasaude20200.apk';
 
 function MineirosDoTiete() {
 	return <Container>
@@ -51,7 +65,7 @@ function MineirosDoTiete() {
 
 			{/* Afranio Tavares ONE */}
 			<div className="cardPerson">
-				{/* <img src={AfranioTavares} alt=""/> */}
+				<img src={AfranioTavares} alt=""/>
 				<h3>(55 000)</h3>
 				<h3>Afranio Tavares</h3>
 				<div className="alignButtons">
@@ -63,9 +77,9 @@ function MineirosDoTiete() {
 
 			{/* Anão Laia */}
 			<div className="cardPerson">
-				{/* <img src={AnaOlaia} alt=""/> */}
+				<img src={AnaOlaia} alt=""/>
 				<h3>(55 999)</h3>
-				<h3>Anão Laia</h3>
+				<h3>Ana Olaia</h3>
 				<div className="alignButtons">
 				<a href={AnaoLaiaAndroid} download="Ana.apk" id="AndroidButton">Download App Android</a> 
 				<a id="IosButton">Download App ios</a>
@@ -89,9 +103,9 @@ function MineirosDoTiete() {
 				<div className="cardPerson">
 				{/* <img src={Dicaprio} alt=""/> */}
 				<h3>(55 678)</h3>
-				<h3>Bócio</h3>
+				<h3>Bocão</h3>
 				<div className="alignButtons">
-				<a href={bocio55678Android} download="Bócio.apk" id="AndroidButton">Download App Android</a> 
+				<a href={bocao55678Android} download="Bocão.apk" id="AndroidButton">Download App Android</a> 
 				<a id="IosButton">Download App ios</a>
 				</div>
 			</div>
@@ -99,7 +113,7 @@ function MineirosDoTiete() {
 
 				{/* Edimilson Eufrázio */}
 				<div className="cardPerson">
-				{/* <img src={EdimilsonFoto} alt=""/> */}
+				<img src={EdimilsonFoto} alt=""/>
 				<h3>(55 125)</h3>
 				<h3>Edimilson Eufrazio</h3>
 				<div className="alignButtons">
@@ -111,7 +125,7 @@ function MineirosDoTiete() {
 
 				{/* Enadilla voltolin */}
 				<div className="cardPerson">
-				{/* <img src={EnadillaFoto} alt="EnadillaFoto"/> */}
+				<img src={EnadillaFoto} alt="EnadillaFoto"/>
 				<h3>(55 888)</h3>
 				<h3>Enadilla Voltolin</h3>
 				<div className="alignButtons">
@@ -123,7 +137,7 @@ function MineirosDoTiete() {
 
 				{/* Gabriela Big */}
 				<div className="cardPerson">
-				{/* <img src={Dicaprio} alt=""/> */}
+				<img src={GabrielaFoto} alt=""/>
 				<h3>(55 333)</h3>
 				<h3>Gabriela Big</h3>
 				<div className="alignButtons">
@@ -135,7 +149,7 @@ function MineirosDoTiete() {
 
 				{/* Gazani */}
 				<div className="cardPerson">
-				{/* <img src={Dicaprio} alt=""/> */}
+				<img src={GazaniFoto} alt=""/>
 				<h3>(55 789)</h3>
 				<h3>Gazini</h3>
 				<div className="alignButtons">
@@ -147,7 +161,7 @@ function MineirosDoTiete() {
 
 				{/* Marco Padaria */}
 				<div className="cardPerson">
-				{/* <img src={Dicaprio} alt=""/> */}
+				<img src={MarcoFoto} alt=""/>
 				<h3>(55 444)</h3>
 				<h3>Marco Padaria</h3>
 				<div className="alignButtons">
@@ -171,7 +185,7 @@ function MineirosDoTiete() {
 
 				{/* Mauro Rodrigues */}
 				<div className="cardPerson">
-				{/* <img src={Dicaprio} alt=""/> */}
+				<img src={MauroFoto} alt=""/>
 				<h3>(55 111)</h3>
 				<h3>Mauro Rodrigues</h3>
 				<div className="alignButtons">
@@ -183,7 +197,7 @@ function MineirosDoTiete() {
 
 				{/* Thalles Rodrigues */}
 				<div className="cardPerson">
-				{/* <img src={ThallesRodriguesPhoto} alt="Thales Rodrigues"/> */}
+				<img src={ThallesRodriguesPhoto} alt="Thales Rodrigues"/>
 				<h3>(20 000)</h3>
 				<h3>Thalles Rodrigues</h3>
 				<div className="alignButtons">
@@ -195,7 +209,7 @@ function MineirosDoTiete() {
 
 				{/* Vania Braga */}
 				<div className="cardPerson">
-				{/* <img src={Dicaprio} alt=""/> */}
+				<img src={VaniaFoto} alt="Vania Foto"/>
 				<h3>(13 222)</h3>
 				<h3>Vania Braga</h3>
 				<div className="alignButtons">
@@ -204,6 +218,66 @@ function MineirosDoTiete() {
 				</div>
 			</div>
 			{/* END Vania Braga */}
+			
+				{/* Vandicesarin  */}
+				<div className="cardPerson">
+				<img src={VadiFoto} alt=""/>
+				<h3>(55 )</h3>
+				<h3>Vadi Cezarin</h3>
+				<div className="alignButtons">
+				<a href={vadi123465Android} download="VadiCezarin.apk" id="AndroidButton">Download App Android</a> 
+				<a id="IosButton">Download App ios</a>
+				</div>
+			</div>
+			{/* END Vandicesarin */}
+
+				{/* Tio Chico */}
+				<div className="cardPerson">
+				<img src={ChicoFoto} alt=""/>
+				<h3>(55 456)</h3>
+				<h3>Tio Chico</h3>
+				<div className="alignButtons">
+				<a href={tiochico55456Android} download="TioChico.apk" id="AndroidButton">Download App Android</a> 
+				<a id="IosButton">Download App ios</a>
+				</div>
+			</div>
+			{/* END Tio Chico */}
+
+				{/* Sidney Gasparoto */}
+				<div className="cardPerson">
+				<img src={SidineyFoto} alt=""/>
+				<h3>(13 000)</h3>
+				<h3>Sidney gasparoto</h3>
+				<div className="alignButtons">
+				<a href={sidineygasparotto13000Android} download="SidneyGasparotto.apk" id="AndroidButton">Download App Android</a> 
+				<a id="IosButton">Download App ios</a>
+				</div>
+			</div>
+			{/* END Sidney gasparoto */}
+
+				{/* FEFE */}
+				<div className="cardPerson">
+				<img src={FefeFoto} alt=""/>
+				<h3>(13 222)</h3>
+				<h3>Fefe</h3>
+				<div className="alignButtons">
+				<a href={fefe55123Android} download="Fefe.apk" id="AndroidButton">Download App Android</a> 
+				<a id="IosButton">Download App ios</a>
+				</div>
+			</div>
+			{/* END FEFE */}
+
+				{/* Elaine da saude */}
+				<div className="cardPerson">
+				<img src={ElaineFoto} alt=""/>
+				<h3>(13 222)</h3>
+				<h3>Elaine da Saude</h3>
+				<div className="alignButtons">
+				<a href={elainedasaude20200Android} download="ElaineDaSaude.apk" id="AndroidButton">Download App Android</a> 
+				<a id="IosButton">Download App ios</a>
+				</div>
+			</div>
+			{/* END Elaine da Saude */}
 
 		</div>
 	</Container>;

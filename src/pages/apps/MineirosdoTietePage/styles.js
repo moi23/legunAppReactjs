@@ -26,7 +26,7 @@ export const Container = styled.div`
 		img{
 			height: auto;
 			width: 50%;
-			border-radius: 50%;
+			/* border-radius: 50%; */
 			margin-bottom: 10px;
 			margin-top:10px;
 		}

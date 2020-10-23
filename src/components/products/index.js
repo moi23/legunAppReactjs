@@ -17,7 +17,8 @@ function Products() {
         <div className="boxLink">
           <img src={GestaoPublica} alt=""/>
           <h3>Módulos Gestao Pública</h3>
-          <Modal><a href="#">SAIBA MAIS</a></Modal>
+          {/* <Modal><a href="#">SAIBA MAIS</a></Modal> */}
+					<a href="#">SAIBA MAIS</a>
           
         </div>
         <div className="boxLink">
